@@ -1,30 +1,28 @@
 var firstButton = document.getElementById('first-button')
 
-firstButton.addEventListener('click', function () {
-    console.log('I was clicked')
+firstButton.addEventListener('mouseenter', () => {
+    document.getElementById('applause1hover').play()
 })
-firstButton.addEventListener('mouseenter', function () {
-    console.log('I was clicked')
+firstButton.addEventListener('click', () => {
+    document.getElementById('applause2click').play()
 })
-
-
 
 var secondButton = document.getElementById('second-button')
 
-secondButton.addEventListener('click', function () {
-    console.log('I was clicked')
+secondButton.addEventListener('mouseenter', () => {
+    document.getElementById('bubbling1hover').play()
 })
-secondButton.addEventListener('mouseenter', function () {
-    console.log('I was clicked')
+secondButton.addEventListener('click', () => {
+    document.getElementById("bubbling2click").play()
 })
 
 
 
 var thirdButton = document.getElementById('third-button')
 
-thirdButton.addEventListener('click', function () {
-    console.log('I was clicked')
+thirdButton.addEventListener('mouseenter', () => {
+    document.getElementById("camera1hover").play()
 })
-thirdButton.addEventListener('mouseenter', function () {
-    console.log('I was clicked')
+thirdButton.addEventListener('click', () => {
+    document.getElementById("camera2click").play()
 })
