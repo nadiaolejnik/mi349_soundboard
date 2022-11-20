@@ -15,11 +15,22 @@ button {
     width: 200px;
     text-align: center;
     font-size: 20px;
-    background-color: #5B8A6D;
     color: white;
     line-height: 0;
     border: none;
     border-radius: 10px;
+}
+
+#first-button {
+    background-color: #609374;
+}
+
+#second-button {
+    background-color: #517C62;
+}
+
+#third-button {
+    background-color: #43634F;
 }
 
 button:hover {
